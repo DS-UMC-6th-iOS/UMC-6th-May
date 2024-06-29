@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1901B8082C2E7BE900451859 /* PostCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1901B8072C2E7BE900451859 /* PostCollectionViewCell.xib */; };
+		1901B8092C2E7BE900451859 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8062C2E7BE900451859 /* PostCollectionViewCell.swift */; };
+		1901B80C2C2E884B00451859 /* FeedAPIInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B80B2C2E884B00451859 /* FeedAPIInput.swift */; };
+		1901B80E2C2E889100451859 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B80D2C2E889100451859 /* FeedModel.swift */; };
+		1901B8102C2E88C900451859 /* FeedDataManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B80F2C2E88C900451859 /* FeedDataManger.swift */; };
+		1901B8132C2E9A8700451859 /* FeedUploadInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8122C2E9A8700451859 /* FeedUploadInput.swift */; };
+		1901B8152C2E9ACE00451859 /* FeedUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8142C2E9ACE00451859 /* FeedUploadModel.swift */; };
+		1901B8172C2E9B3600451859 /* FeedUploadDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8162C2E9B3600451859 /* FeedUploadDataManager.swift */; };
+		1901B81D2C2EA22500451859 /* UserFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B81C2C2EA22500451859 /* UserFeedModel.swift */; };
+		1901B81F2C2EA70000451859 /* UserFeedDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B81E2C2EA70000451859 /* UserFeedDataManager.swift */; };
+		1901B8232C2F79DE00451859 /* DeleteUserFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8222C2F79DE00451859 /* DeleteUserFeed.swift */; };
+		1901B8252C2F869800451859 /* ReelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8242C2F869800451859 /* ReelsViewController.swift */; };
+		1901B8282C2F878600451859 /* ReelsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B8262C2F878600451859 /* ReelsCollectionViewCell.swift */; };
+		1901B8302C2F8FAE00451859 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1901B82F2C2F8FAE00451859 /* VideoPlayerView.swift */; };
+		1901B8332C2F958C00451859 /* gamjaVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1901B8322C2F93F400451859 /* gamjaVideo.mp4 */; };
+		1901B8342C2F958C00451859 /* gamjaVideo2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1901B8312C2F93F400451859 /* gamjaVideo2.mp4 */; };
+		19185F2E2BE46B6900C1D9D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185F2D2BE46B6900C1D9D0 /* AppDelegate.swift */; };
+		19185F302BE46B6900C1D9D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185F2F2BE46B6900C1D9D0 /* SceneDelegate.swift */; };
+		19185F352BE46B6900C1D9D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 19185F342BE46B6900C1D9D0 /* Base */; };
+		19185F372BE46B6A00C1D9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19185F362BE46B6A00C1D9D0 /* Assets.xcassets */; };
+		19185F3A2BE46B6A00C1D9D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 19185F392BE46B6A00C1D9D0 /* Base */; };
+		19185F452BE46B6A00C1D9D0 /* CatstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185F442BE46B6A00C1D9D0 /* CatstagramTests.swift */; };
+		19185F4F2BE46B6A00C1D9D0 /* CatstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185F4E2BE46B6A00C1D9D0 /* CatstagramUITests.swift */; };
+		19185F512BE46B6A00C1D9D0 /* CatstagramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19185F502BE46B6A00C1D9D0 /* CatstagramUITestsLaunchTests.swift */; };
+		1924038A2BE4A6E90075246D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192403892BE4A6E90075246D /* HomeViewController.swift */; };
+		1924038C2BE4B0680075246D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924038B2BE4B0680075246D /* LoginViewController.swift */; };
+		1924038E2BE4B3D40075246D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924038D2BE4B3D40075246D /* RegisterViewController.swift */; };
+		192403902BE5926E0075246D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1924038F2BE5926E0075246D /* UIView+Extension.swift */; };
+		192403922BE593AD0075246D /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192403912BE593AD0075246D /* UIViewController+Extension.swift */; };
+		192403942BE59C270075246D /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192403932BE59C270075246D /* UserInfo.swift */; };
+		194B161D2C00923100AE7C29 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B161B2C00923100AE7C29 /* StoryTableViewCell.swift */; };
+		194B161E2C00923100AE7C29 /* StoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194B161C2C00923100AE7C29 /* StoryTableViewCell.xib */; };
+		194B16212C0095C000AE7C29 /* StoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194B161F2C0095C000AE7C29 /* StoryCollectionViewCell.swift */; };
+		194B16222C0095C000AE7C29 /* StoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 194B16202C0095C000AE7C29 /* StoryCollectionViewCell.xib */; };
+		1963FED12BEDA82A00FCFE06 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1963FECF2BEDA82A00FCFE06 /* FeedTableViewCell.swift */; };
+		1963FED22BEDA82A00FCFE06 /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1963FED02BEDA82A00FCFE06 /* FeedTableViewCell.xib */; };
+		197446692C00B4F3008E11B7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197446682C00B4F3008E11B7 /* ProfileViewController.swift */; };
+		1974466D2C00B784008E11B7 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1974466B2C00B784008E11B7 /* ProfileCollectionViewCell.swift */; };
+		1974466E2C00B784008E11B7 /* ProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1974466C2C00B784008E11B7 /* ProfileCollectionViewCell.xib */; };
+		4D3178BC4CEE4A5D3752E8BA /* Pods_Catstagram_CatstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8F2B79B9F09058927E730E /* Pods_Catstagram_CatstagramUITests.framework */; };
+		5212CE64059ECE675F55A907 /* Pods_Catstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D06ECF3DBA8B361FBC9C9D /* Pods_Catstagram.framework */; };
+		D2E2FAD7CE2B8D97ACFD12EB /* Pods_CatstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CAD92304116A9FD7140F49C /* Pods_CatstagramTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19185F412BE46B6A00C1D9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19185F222BE46B6900C1D9D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19185F292BE46B6900C1D9D0;
+			remoteInfo = Catstagram;
+		};
+		19185F4B2BE46B6A00C1D9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19185F222BE46B6900C1D9D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19185F292BE46B6900C1D9D0;
+			remoteInfo = Catstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E5217C70D99386A1180FFA /* Pods-Catstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.release.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.release.xcconfig"; sourceTree = "<group>"; };
+		1901B8062C2E7BE900451859 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		1901B8072C2E7BE900451859 /* PostCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCollectionViewCell.xib; sourceTree = "<group>"; };
+		1901B80B2C2E884B00451859 /* FeedAPIInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAPIInput.swift; sourceTree = "<group>"; };
+		1901B80D2C2E889100451859 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		1901B80F2C2E88C900451859 /* FeedDataManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataManger.swift; sourceTree = "<group>"; };
+		1901B8122C2E9A8700451859 /* FeedUploadInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadInput.swift; sourceTree = "<group>"; };
+		1901B8142C2E9ACE00451859 /* FeedUploadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadModel.swift; sourceTree = "<group>"; };
+		1901B8162C2E9B3600451859 /* FeedUploadDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUploadDataManager.swift; sourceTree = "<group>"; };
+		1901B81C2C2EA22500451859 /* UserFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedModel.swift; sourceTree = "<group>"; };
+		1901B81E2C2EA70000451859 /* UserFeedDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFeedDataManager.swift; sourceTree = "<group>"; };
+		1901B8222C2F79DE00451859 /* DeleteUserFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteUserFeed.swift; sourceTree = "<group>"; };
+		1901B8242C2F869800451859 /* ReelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsViewController.swift; sourceTree = "<group>"; };
+		1901B8262C2F878600451859 /* ReelsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReelsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1901B82F2C2F8FAE00451859 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		1901B8312C2F93F400451859 /* gamjaVideo2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gamjaVideo2.mp4; sourceTree = "<group>"; };
+		1901B8322C2F93F400451859 /* gamjaVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gamjaVideo.mp4; sourceTree = "<group>"; };
+		19185F2A2BE46B6900C1D9D0 /* Catstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19185F2D2BE46B6900C1D9D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19185F2F2BE46B6900C1D9D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		19185F342BE46B6900C1D9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19185F362BE46B6A00C1D9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19185F392BE46B6A00C1D9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19185F3B2BE46B6A00C1D9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19185F402BE46B6A00C1D9D0 /* CatstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19185F442BE46B6A00C1D9D0 /* CatstagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatstagramTests.swift; sourceTree = "<group>"; };
+		19185F4A2BE46B6A00C1D9D0 /* CatstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19185F4E2BE46B6A00C1D9D0 /* CatstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatstagramUITests.swift; sourceTree = "<group>"; };
+		19185F502BE46B6A00C1D9D0 /* CatstagramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatstagramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		192403892BE4A6E90075246D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1924038B2BE4B0680075246D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1924038D2BE4B3D40075246D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1924038F2BE5926E0075246D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		192403912BE593AD0075246D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		192403932BE59C270075246D /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		194B161B2C00923100AE7C29 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		194B161C2C00923100AE7C29 /* StoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryTableViewCell.xib; sourceTree = "<group>"; };
+		194B161F2C0095C000AE7C29 /* StoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		194B16202C0095C000AE7C29 /* StoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		1963FECF2BEDA82A00FCFE06 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		1963FED02BEDA82A00FCFE06 /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		197446682C00B4F3008E11B7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1974466B2C00B784008E11B7 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		1974466C2C00B784008E11B7 /* ProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCollectionViewCell.xib; sourceTree = "<group>"; };
+		1CAD92304116A9FD7140F49C /* Pods_CatstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8F2B79B9F09058927E730E /* Pods_Catstagram_CatstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram_CatstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC494F089BF084A4310642B /* Pods-Catstagram-CatstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram-CatstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Catstagram-CatstagramUITests/Pods-Catstagram-CatstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3801BDCEEFA50A2615D4585A /* Pods-CatstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-CatstagramTests/Pods-CatstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F31D724EC1E96B070F9B55E /* Pods-Catstagram-CatstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram-CatstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram-CatstagramUITests/Pods-Catstagram-CatstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88999BD27E71E59731E4497A /* Pods-CatstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatstagramTests.release.xcconfig"; path = "Target Support Files/Pods-CatstagramTests/Pods-CatstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		F068CF6FE04228D75D0E7DAB /* Pods-Catstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catstagram.debug.xcconfig"; path = "Target Support Files/Pods-Catstagram/Pods-Catstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		F5D06ECF3DBA8B361FBC9C9D /* Pods_Catstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19185F272BE46B6900C1D9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5212CE64059ECE675F55A907 /* Pods_Catstagram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19185F3D2BE46B6A00C1D9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2E2FAD7CE2B8D97ACFD12EB /* Pods_CatstagramTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19185F472BE46B6A00C1D9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3178BC4CEE4A5D3752E8BA /* Pods_Catstagram_CatstagramUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BFD38A73A79CADBC22ACDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D06ECF3DBA8B361FBC9C9D /* Pods_Catstagram.framework */,
+				2C8F2B79B9F09058927E730E /* Pods_Catstagram_CatstagramUITests.framework */,
+				1CAD92304116A9FD7140F49C /* Pods_CatstagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1901B8042C2E7BA300451859 /* ProfileCell */ = {
+			isa = PBXGroup;
+			children = (
+				1974466B2C00B784008E11B7 /* ProfileCollectionViewCell.swift */,
+				1974466C2C00B784008E11B7 /* ProfileCollectionViewCell.xib */,
+			);
+			path = ProfileCell;
+			sourceTree = "<group>";
+		};
+		1901B8052C2E7BB200451859 /* PostCell */ = {
+			isa = PBXGroup;
+			children = (
+				1901B8062C2E7BE900451859 /* PostCollectionViewCell.swift */,
+				1901B8072C2E7BE900451859 /* PostCollectionViewCell.xib */,
+			);
+			path = PostCell;
+			sourceTree = "<group>";
+		};
+		1901B80A2C2E882D00451859 /* FeedDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1901B80B2C2E884B00451859 /* FeedAPIInput.swift */,
+				1901B80D2C2E889100451859 /* FeedModel.swift */,
+				1901B80F2C2E88C900451859 /* FeedDataManger.swift */,
+			);
+			path = FeedDataManager;
+			sourceTree = "<group>";
+		};
+		1901B8112C2E9A6F00451859 /* FeedUploadDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1901B8122C2E9A8700451859 /* FeedUploadInput.swift */,
+				1901B8142C2E9ACE00451859 /* FeedUploadModel.swift */,
+				1901B8162C2E9B3600451859 /* FeedUploadDataManager.swift */,
+			);
+			path = FeedUploadDataManager;
+			sourceTree = "<group>";
+		};
+		1901B8182C2E9ECC00451859 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				19185F2D2BE46B6900C1D9D0 /* AppDelegate.swift */,
+				19185F2F2BE46B6900C1D9D0 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1901B8192C2E9EF600451859 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				1924038B2BE4B0680075246D /* LoginViewController.swift */,
+				1924038D2BE4B3D40075246D /* RegisterViewController.swift */,
+				1901B8242C2F869800451859 /* ReelsViewController.swift */,
+				1901B8262C2F878600451859 /* ReelsCollectionViewCell.swift */,
+				1901B82F2C2F8FAE00451859 /* VideoPlayerView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		1901B81A2C2E9F1900451859 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				192403882BE4A6CA0075246D /* Home */,
+				197446672C00B4CE008E11B7 /* Profile */,
+				1901B8192C2E9EF600451859 /* Authentication */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		1901B81B2C2EA1C600451859 /* UserFeedDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1901B81E2C2EA70000451859 /* UserFeedDataManager.swift */,
+				1901B8212C2F79BA00451859 /* DeleteUserFeed */,
+				1901B8202C2F79A400451859 /* UserFeed */,
+			);
+			path = UserFeedDataManager;
+			sourceTree = "<group>";
+		};
+		1901B8202C2F79A400451859 /* UserFeed */ = {
+			isa = PBXGroup;
+			children = (
+				1901B81C2C2EA22500451859 /* UserFeedModel.swift */,
+			);
+			path = UserFeed;
+			sourceTree = "<group>";
+		};
+		1901B8212C2F79BA00451859 /* DeleteUserFeed */ = {
+			isa = PBXGroup;
+			children = (
+				1901B8222C2F79DE00451859 /* DeleteUserFeed.swift */,
+			);
+			path = DeleteUserFeed;
+			sourceTree = "<group>";
+		};
+		19185F212BE46B6900C1D9D0 = {
+			isa = PBXGroup;
+			children = (
+				19185F2C2BE46B6900C1D9D0 /* Catstagram */,
+				19185F432BE46B6A00C1D9D0 /* CatstagramTests */,
+				19185F4D2BE46B6A00C1D9D0 /* CatstagramUITests */,
+				19185F2B2BE46B6900C1D9D0 /* Products */,
+				596BF8671F7A0618E0DCBA7E /* Pods */,
+				17BFD38A73A79CADBC22ACDC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		19185F2B2BE46B6900C1D9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19185F2A2BE46B6900C1D9D0 /* Catstagram.app */,
+				19185F402BE46B6A00C1D9D0 /* CatstagramTests.xctest */,
+				19185F4A2BE46B6A00C1D9D0 /* CatstagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19185F2C2BE46B6900C1D9D0 /* Catstagram */ = {
+			isa = PBXGroup;
+			children = (
+				1901B8182C2E9ECC00451859 /* App */,
+				1901B81A2C2E9F1900451859 /* UserInterface */,
+				19185F332BE46B6900C1D9D0 /* Main.storyboard */,
+				19185F362BE46B6A00C1D9D0 /* Assets.xcassets */,
+				19185F382BE46B6A00C1D9D0 /* LaunchScreen.storyboard */,
+				19185F3B2BE46B6A00C1D9D0 /* Info.plist */,
+				1924038F2BE5926E0075246D /* UIView+Extension.swift */,
+				192403912BE593AD0075246D /* UIViewController+Extension.swift */,
+				192403932BE59C270075246D /* UserInfo.swift */,
+				1901B8322C2F93F400451859 /* gamjaVideo.mp4 */,
+				1901B8312C2F93F400451859 /* gamjaVideo2.mp4 */,
+			);
+			path = Catstagram;
+			sourceTree = "<group>";
+		};
+		19185F432BE46B6A00C1D9D0 /* CatstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				19185F442BE46B6A00C1D9D0 /* CatstagramTests.swift */,
+			);
+			path = CatstagramTests;
+			sourceTree = "<group>";
+		};
+		19185F4D2BE46B6A00C1D9D0 /* CatstagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19185F4E2BE46B6A00C1D9D0 /* CatstagramUITests.swift */,
+				19185F502BE46B6A00C1D9D0 /* CatstagramUITestsLaunchTests.swift */,
+			);
+			path = CatstagramUITests;
+			sourceTree = "<group>";
+		};
+		192403882BE4A6CA0075246D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1901B8112C2E9A6F00451859 /* FeedUploadDataManager */,
+				1901B80A2C2E882D00451859 /* FeedDataManager */,
+				1963FECE2BEDA7E400FCFE06 /* Cell */,
+				192403892BE4A6E90075246D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1963FECE2BEDA7E400FCFE06 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1963FECF2BEDA82A00FCFE06 /* FeedTableViewCell.swift */,
+				1963FED02BEDA82A00FCFE06 /* FeedTableViewCell.xib */,
+				194B161B2C00923100AE7C29 /* StoryTableViewCell.swift */,
+				194B161C2C00923100AE7C29 /* StoryTableViewCell.xib */,
+				194B161F2C0095C000AE7C29 /* StoryCollectionViewCell.swift */,
+				194B16202C0095C000AE7C29 /* StoryCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		197446672C00B4CE008E11B7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1901B81B2C2EA1C600451859 /* UserFeedDataManager */,
+				1974466A2C00B763008E11B7 /* Cell */,
+				197446682C00B4F3008E11B7 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1974466A2C00B763008E11B7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1901B8052C2E7BB200451859 /* PostCell */,
+				1901B8042C2E7BA300451859 /* ProfileCell */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		596BF8671F7A0618E0DCBA7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F068CF6FE04228D75D0E7DAB /* Pods-Catstagram.debug.xcconfig */,
+				16E5217C70D99386A1180FFA /* Pods-Catstagram.release.xcconfig */,
+				3F31D724EC1E96B070F9B55E /* Pods-Catstagram-CatstagramUITests.debug.xcconfig */,
+				2FC494F089BF084A4310642B /* Pods-Catstagram-CatstagramUITests.release.xcconfig */,
+				3801BDCEEFA50A2615D4585A /* Pods-CatstagramTests.debug.xcconfig */,
+				88999BD27E71E59731E4497A /* Pods-CatstagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19185F292BE46B6900C1D9D0 /* Catstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19185F542BE46B6A00C1D9D0 /* Build configuration list for PBXNativeTarget "Catstagram" */;
+			buildPhases = (
+				3BB04E029CF9CFE4EF9B4BDE /* [CP] Check Pods Manifest.lock */,
+				19185F262BE46B6900C1D9D0 /* Sources */,
+				19185F272BE46B6900C1D9D0 /* Frameworks */,
+				19185F282BE46B6900C1D9D0 /* Resources */,
+				10030073C8DDC254592DA67F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catstagram;
+			productName = Catstagram;
+			productReference = 19185F2A2BE46B6900C1D9D0 /* Catstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19185F3F2BE46B6A00C1D9D0 /* CatstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19185F572BE46B6A00C1D9D0 /* Build configuration list for PBXNativeTarget "CatstagramTests" */;
+			buildPhases = (
+				103340E8E123DF368CF348CD /* [CP] Check Pods Manifest.lock */,
+				19185F3C2BE46B6A00C1D9D0 /* Sources */,
+				19185F3D2BE46B6A00C1D9D0 /* Frameworks */,
+				19185F3E2BE46B6A00C1D9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19185F422BE46B6A00C1D9D0 /* PBXTargetDependency */,
+			);
+			name = CatstagramTests;
+			productName = CatstagramTests;
+			productReference = 19185F402BE46B6A00C1D9D0 /* CatstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19185F492BE46B6A00C1D9D0 /* CatstagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19185F5A2BE46B6A00C1D9D0 /* Build configuration list for PBXNativeTarget "CatstagramUITests" */;
+			buildPhases = (
+				93E8254B42ADB51A03915A60 /* [CP] Check Pods Manifest.lock */,
+				19185F462BE46B6A00C1D9D0 /* Sources */,
+				19185F472BE46B6A00C1D9D0 /* Frameworks */,
+				19185F482BE46B6A00C1D9D0 /* Resources */,
+				47C87735ADD306BCAF00F999 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19185F4C2BE46B6A00C1D9D0 /* PBXTargetDependency */,
+			);
+			name = CatstagramUITests;
+			productName = CatstagramUITests;
+			productReference = 19185F4A2BE46B6A00C1D9D0 /* CatstagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19185F222BE46B6900C1D9D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					19185F292BE46B6900C1D9D0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					19185F3F2BE46B6A00C1D9D0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 19185F292BE46B6900C1D9D0;
+					};
+					19185F492BE46B6A00C1D9D0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 19185F292BE46B6900C1D9D0;
+					};
+				};
+			};
+			buildConfigurationList = 19185F252BE46B6900C1D9D0 /* Build configuration list for PBXProject "Catstagram" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19185F212BE46B6900C1D9D0;
+			productRefGroup = 19185F2B2BE46B6900C1D9D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19185F292BE46B6900C1D9D0 /* Catstagram */,
+				19185F3F2BE46B6A00C1D9D0 /* CatstagramTests */,
+				19185F492BE46B6A00C1D9D0 /* CatstagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19185F282BE46B6900C1D9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1901B8332C2F958C00451859 /* gamjaVideo.mp4 in Resources */,
+				1901B8342C2F958C00451859 /* gamjaVideo2.mp4 in Resources */,
+				1901B8082C2E7BE900451859 /* PostCollectionViewCell.xib in Resources */,
+				19185F372BE46B6A00C1D9D0 /* Assets.xcassets in Resources */,
+				1963FED22BEDA82A00FCFE06 /* FeedTableViewCell.xib in Resources */,
+				19185F3A2BE46B6A00C1D9D0 /* Base in Resources */,
+				1974466E2C00B784008E11B7 /* ProfileCollectionViewCell.xib in Resources */,
+				194B161E2C00923100AE7C29 /* StoryTableViewCell.xib in Resources */,
+				194B16222C0095C000AE7C29 /* StoryCollectionViewCell.xib in Resources */,
+				19185F352BE46B6900C1D9D0 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19185F3E2BE46B6A00C1D9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19185F482BE46B6A00C1D9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10030073C8DDC254592DA67F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catstagram/Pods-Catstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catstagram/Pods-Catstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catstagram/Pods-Catstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		103340E8E123DF368CF348CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB04E029CF9CFE4EF9B4BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47C87735ADD306BCAF00F999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catstagram-CatstagramUITests/Pods-Catstagram-CatstagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catstagram-CatstagramUITests/Pods-Catstagram-CatstagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catstagram-CatstagramUITests/Pods-Catstagram-CatstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E8254B42ADB51A03915A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catstagram-CatstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19185F262BE46B6900C1D9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192403902BE5926E0075246D /* UIView+Extension.swift in Sources */,
+				1924038C2BE4B0680075246D /* LoginViewController.swift in Sources */,
+				1901B80C2C2E884B00451859 /* FeedAPIInput.swift in Sources */,
+				194B16212C0095C000AE7C29 /* StoryCollectionViewCell.swift in Sources */,
+				1901B8232C2F79DE00451859 /* DeleteUserFeed.swift in Sources */,
+				1924038E2BE4B3D40075246D /* RegisterViewController.swift in Sources */,
+				1901B8132C2E9A8700451859 /* FeedUploadInput.swift in Sources */,
+				19185F2E2BE46B6900C1D9D0 /* AppDelegate.swift in Sources */,
+				192403942BE59C270075246D /* UserInfo.swift in Sources */,
+				1901B81F2C2EA70000451859 /* UserFeedDataManager.swift in Sources */,
+				197446692C00B4F3008E11B7 /* ProfileViewController.swift in Sources */,
+				1901B8302C2F8FAE00451859 /* VideoPlayerView.swift in Sources */,
+				192403922BE593AD0075246D /* UIViewController+Extension.swift in Sources */,
+				1974466D2C00B784008E11B7 /* ProfileCollectionViewCell.swift in Sources */,
+				1901B8152C2E9ACE00451859 /* FeedUploadModel.swift in Sources */,
+				1901B8172C2E9B3600451859 /* FeedUploadDataManager.swift in Sources */,
+				19185F302BE46B6900C1D9D0 /* SceneDelegate.swift in Sources */,
+				1901B8102C2E88C900451859 /* FeedDataManger.swift in Sources */,
+				1963FED12BEDA82A00FCFE06 /* FeedTableViewCell.swift in Sources */,
+				1924038A2BE4A6E90075246D /* HomeViewController.swift in Sources */,
+				1901B8282C2F878600451859 /* ReelsCollectionViewCell.swift in Sources */,
+				1901B8092C2E7BE900451859 /* PostCollectionViewCell.swift in Sources */,
+				1901B81D2C2EA22500451859 /* UserFeedModel.swift in Sources */,
+				194B161D2C00923100AE7C29 /* StoryTableViewCell.swift in Sources */,
+				1901B8252C2F869800451859 /* ReelsViewController.swift in Sources */,
+				1901B80E2C2E889100451859 /* FeedModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19185F3C2BE46B6A00C1D9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19185F452BE46B6A00C1D9D0 /* CatstagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19185F462BE46B6A00C1D9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19185F4F2BE46B6A00C1D9D0 /* CatstagramUITests.swift in Sources */,
+				19185F512BE46B6A00C1D9D0 /* CatstagramUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19185F422BE46B6A00C1D9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19185F292BE46B6900C1D9D0 /* Catstagram */;
+			targetProxy = 19185F412BE46B6A00C1D9D0 /* PBXContainerItemProxy */;
+		};
+		19185F4C2BE46B6A00C1D9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19185F292BE46B6900C1D9D0 /* Catstagram */;
+			targetProxy = 19185F4B2BE46B6A00C1D9D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19185F332BE46B6900C1D9D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19185F342BE46B6900C1D9D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19185F382BE46B6A00C1D9D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19185F392BE46B6A00C1D9D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19185F522BE46B6A00C1D9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19185F532BE46B6A00C1D9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19185F552BE46B6A00C1D9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F068CF6FE04228D75D0E7DAB /* Pods-Catstagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N83Y3X4QT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Catstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.Catstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19185F562BE46B6A00C1D9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E5217C70D99386A1180FFA /* Pods-Catstagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N83Y3X4QT;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Catstagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.Catstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19185F582BE46B6A00C1D9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3801BDCEEFA50A2615D4585A /* Pods-CatstagramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N83Y3X4QT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.CatstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catstagram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catstagram";
+			};
+			name = Debug;
+		};
+		19185F592BE46B6A00C1D9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88999BD27E71E59731E4497A /* Pods-CatstagramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N83Y3X4QT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.CatstagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Catstagram.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Catstagram";
+			};
+			name = Release;
+		};
+		19185F5B2BE46B6A00C1D9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F31D724EC1E96B070F9B55E /* Pods-Catstagram-CatstagramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N83Y3X4QT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.CatstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Catstagram;
+			};
+			name = Debug;
+		};
+		19185F5C2BE46B6A00C1D9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC494F089BF084A4310642B /* Pods-Catstagram-CatstagramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N83Y3X4QT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.duksung.CatstagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Catstagram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19185F252BE46B6900C1D9D0 /* Build configuration list for PBXProject "Catstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19185F522BE46B6A00C1D9D0 /* Debug */,
+				19185F532BE46B6A00C1D9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19185F542BE46B6A00C1D9D0 /* Build configuration list for PBXNativeTarget "Catstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19185F552BE46B6A00C1D9D0 /* Debug */,
+				19185F562BE46B6A00C1D9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19185F572BE46B6A00C1D9D0 /* Build configuration list for PBXNativeTarget "CatstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19185F582BE46B6A00C1D9D0 /* Debug */,
+				19185F592BE46B6A00C1D9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19185F5A2BE46B6A00C1D9D0 /* Build configuration list for PBXNativeTarget "CatstagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19185F5B2BE46B6A00C1D9D0 /* Debug */,
+				19185F5C2BE46B6A00C1D9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19185F222BE46B6900C1D9D0 /* Project object */;
+}
