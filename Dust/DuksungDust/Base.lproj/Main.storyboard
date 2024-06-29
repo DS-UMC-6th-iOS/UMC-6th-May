@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ryS-1j-WdD">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--세부정보-->
+        <scene sceneID="KEw-pt-yg8">
+            <objects>
+                <viewController id="fsv-Rp-XZF" customClass="DetailController" customModule="DuksungDust" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HyZ-SQ-hvT">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spw-5z-iKj">
+                                <rect key="frame" x="176" y="100" width="41.333333333333343" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="JCE-32-WwS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서울 기상 예보" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdo-ud-a1S">
+                                <rect key="frame" x="148" y="410" width="97" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rce-6N-fEr">
+                                <rect key="frame" x="30" y="452" width="333" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V47-cC-TY7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Qdo-ud-a1S" firstAttribute="centerX" secondItem="HyZ-SQ-hvT" secondAttribute="centerX" id="8Tv-6P-wYe"/>
+                            <constraint firstItem="rce-6N-fEr" firstAttribute="leading" secondItem="V47-cC-TY7" secondAttribute="leading" constant="30" id="HE8-3F-qQR"/>
+                            <constraint firstItem="Qdo-ud-a1S" firstAttribute="centerY" secondItem="HyZ-SQ-hvT" secondAttribute="centerY" id="McR-aR-DMm"/>
+                            <constraint firstItem="rce-6N-fEr" firstAttribute="top" secondItem="Qdo-ud-a1S" secondAttribute="bottom" constant="20" id="bWi-Z4-4eR"/>
+                            <constraint firstItem="Spw-5z-iKj" firstAttribute="centerX" secondItem="HyZ-SQ-hvT" secondAttribute="centerX" id="iDE-wa-ruW"/>
+                            <constraint firstItem="V47-cC-TY7" firstAttribute="trailing" secondItem="rce-6N-fEr" secondAttribute="trailing" constant="30" id="vLM-C5-pD0"/>
+                            <constraint firstItem="Spw-5z-iKj" firstAttribute="top" relation="lessThanOrEqual" secondItem="V47-cC-TY7" secondAttribute="top" constant="100" id="wbw-Vj-8Oc"/>
+                            <constraint firstItem="Qdo-ud-a1S" firstAttribute="top" relation="lessThanOrEqual" secondItem="Spw-5z-iKj" secondAttribute="bottom" constant="200" id="wg8-tA-SSI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="세부정보" id="erB-T6-jEp"/>
+                    <connections>
+                        <outlet property="infoLabel" destination="Spw-5z-iKj" id="7kY-1c-mXl"/>
+                        <outlet property="weatherLabel" destination="rce-6N-fEr" id="afs-fg-37J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o9W-uL-V5c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2428" y="4"/>
+        </scene>
+        <!--서울 구별 미세먼지-->
+        <scene sceneID="Kmn-hi-OtY">
+            <objects>
+                <viewController storyboardIdentifier="Dust" id="ryS-1j-WdD" customClass="DustController" customModule="DuksungDust" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="We6-xp-isC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="날짜/시간 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20p-bp-nu9">
+                                <rect key="frame" x="96.666666666666686" y="79" width="200" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="RXJ-8X-n3H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bR9-pP-Q3X">
+                                <rect key="frame" x="10" y="121" width="373" height="636"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DustCell" id="pcn-nE-1nc">
+                                        <rect key="frame" x="0.0" y="50" width="373" height="43.333332061767578"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pcn-nE-1nc" id="oTD-Vp-eL6">
+                                            <rect key="frame" x="0.0" y="0.0" width="342.66666666666669" height="43.333332061767578"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QM8-fy-wNT">
+                                                    <rect key="frame" x="30" y="11" width="50" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Ocv-IO-gYO"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0z-XS-cCI">
+                                                    <rect key="frame" x="146.33333333333334" y="11" width="50" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="vEx-eC-xKT"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lj8-F1-tk1">
+                                                    <rect key="frame" x="259.66666666666669" y="11" width="70" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="11C-Gr-Mhs"/>
+                                                        <constraint firstAttribute="width" constant="70" id="77P-7j-mqS"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="u0z-XS-cCI" secondAttribute="bottom" constant="0.5" id="2d7-TH-3s2"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="lj8-F1-tk1" secondAttribute="trailing" constant="5" id="5nr-JZ-pQI"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="QM8-fy-wNT" secondAttribute="bottom" constant="0.5" id="80s-cm-mtF"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="lj8-F1-tk1" secondAttribute="bottom" constant="0.5" id="HOS-1C-ayM"/>
+                                                <constraint firstItem="QM8-fy-wNT" firstAttribute="leading" secondItem="oTD-Vp-eL6" secondAttribute="leadingMargin" constant="10" id="TdJ-Ll-DF0"/>
+                                                <constraint firstItem="QM8-fy-wNT" firstAttribute="top" secondItem="oTD-Vp-eL6" secondAttribute="topMargin" id="alH-zh-zzU"/>
+                                                <constraint firstItem="u0z-XS-cCI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="QM8-fy-wNT" secondAttribute="trailing" constant="44.5" id="bc8-jQ-BdV"/>
+                                                <constraint firstItem="lj8-F1-tk1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="u0z-XS-cCI" secondAttribute="trailing" constant="50" id="f09-6y-iBn"/>
+                                                <constraint firstItem="u0z-XS-cCI" firstAttribute="centerX" secondItem="oTD-Vp-eL6" secondAttribute="centerX" id="lGv-wQ-ggE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="fsv-Rp-XZF" kind="show" id="23a-77-C0T"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ryS-1j-WdD" id="9jF-bo-gem"/>
+                                    <outlet property="delegate" destination="ryS-1j-WdD" id="kST-N1-ElG"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="최고 / 최저" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOY-fn-CQg">
+                                <rect key="frame" x="160" y="777" width="73" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="34U-bb-nrc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bR9-pP-Q3X" firstAttribute="top" secondItem="20p-bp-nu9" secondAttribute="bottom" constant="20" id="3lO-Kg-mm7"/>
+                            <constraint firstItem="34U-bb-nrc" firstAttribute="trailing" secondItem="bR9-pP-Q3X" secondAttribute="trailing" constant="10" id="7xK-d0-Qhf"/>
+                            <constraint firstItem="jOY-fn-CQg" firstAttribute="top" secondItem="bR9-pP-Q3X" secondAttribute="bottom" constant="20" id="GrE-qJ-3qM"/>
+                            <constraint firstItem="bR9-pP-Q3X" firstAttribute="centerX" secondItem="We6-xp-isC" secondAttribute="centerX" id="Hl1-tq-MGu"/>
+                            <constraint firstItem="bR9-pP-Q3X" firstAttribute="leading" secondItem="34U-bb-nrc" secondAttribute="leading" constant="10" id="KNJ-RM-QMy"/>
+                            <constraint firstItem="20p-bp-nu9" firstAttribute="centerX" secondItem="We6-xp-isC" secondAttribute="centerX" id="eIu-lk-h8u"/>
+                            <constraint firstItem="34U-bb-nrc" firstAttribute="bottom" secondItem="jOY-fn-CQg" secondAttribute="bottom" constant="20" id="kUP-U0-OK8"/>
+                            <constraint firstItem="20p-bp-nu9" firstAttribute="top" secondItem="34U-bb-nrc" secondAttribute="top" constant="20" id="lWe-0n-HaV"/>
+                            <constraint firstItem="jOY-fn-CQg" firstAttribute="centerX" secondItem="We6-xp-isC" secondAttribute="centerX" id="w6C-sm-8L7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="서울 구별 미세먼지" id="5uT-ba-GeM">
+                        <barButtonItem key="rightBarButtonItem" title="새로고침" id="7NB-ax-hpR">
+                            <connections>
+                                <action selector="refresh:" destination="ryS-1j-WdD" id="NxE-Ki-cDq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="dateLabel" destination="20p-bp-nu9" id="6eN-WR-mIz"/>
+                        <outlet property="dustTable" destination="bR9-pP-Q3X" id="F2E-of-qe0"/>
+                        <outlet property="maxminLabel" destination="jOY-fn-CQg" id="9A9-ep-sBw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5pG-lP-yKO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1655.7251908396945" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
